@@ -16,7 +16,7 @@
   "files": [
     "dist/**"
   ],
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "babel src -d dist",
     "ci": "npm run lint && git status && git diff-index --quiet HEAD -- && npm test",

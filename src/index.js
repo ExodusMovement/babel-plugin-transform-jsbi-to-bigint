@@ -53,7 +53,7 @@ const staticMethods = new Set([
 
 const DATA_IDENTIFIER = 'JSBI';
 
-export default function(babel) {
+module.exports = function(babel) {
   const {types: t} = babel;
 
   const createExpression = (path, name, args) => {
